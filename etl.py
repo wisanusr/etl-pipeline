@@ -8,4 +8,4 @@ df = pd.read_csv("sample_products.csv")
 df["unit_price"] = df["unit_price"].apply(math.ceil)
 
 #L
-df.to_csv("output/clean_products.csv", index=False)
+df.to_csv("output/cleaned_products.csv", index=False)
